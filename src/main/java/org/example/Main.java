@@ -5,8 +5,8 @@ package org.example;
 // [X] conseguir transformar temperatura em Celsius, Kelvin e Fahrenheit a partir de qualquer uma dessas unidades para qualquer uma dessas unidades.
 
 // [X] imprimir cada temperatura passada, e a unidade escolhida, e também a temperatura resultante, transformada, com sua respectiva unidade.
-// [ ] calcular a média das temperaturas iniciais e transformadas.
-// [ ] ser capaz de se recuperar e tratar qualquer erro que venha ocorrer em sua execução. Entrega via GITHUB durante a aula de segunda. Não precisa ser tudo na mesma classe.
+// [X] calcular a média das temperaturas iniciais e transformadas.
+// [X] ser capaz de se recuperar e tratar qualquer erro que venha ocorrer em sua execução. Entrega via GITHUB durante a aula de segunda. Não precisa ser tudo na mesma classe.
 
 import java.util.Scanner;
 import java.util.stream.Stream;
@@ -38,9 +38,9 @@ public class Main {
 
         System.out.println(" ");
 
-//        calcularMediaIniciais(temperatures);
-//        System.out.println(" ");
-//        calcularMediaConvertidas(convertedTemperatures);
+        calcularMediaIniciais(temperatures);
+        System.out.println(" ");
+        calcularMediaConvertidas(convertedTemperatures);
 
     }
 
